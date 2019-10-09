@@ -46,9 +46,9 @@ $(document).ready(function(){
     });
 
 	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-	particlesJS.load('slider', 'particles.json', function() {
-	console.log('callback - particles.js config loaded');
-  });
+	particlesJS.load('slider', 'js/particlesjs-config.json', function() {
+		console.log('callback - particles.js config loaded');
+	});
 
 });
 
