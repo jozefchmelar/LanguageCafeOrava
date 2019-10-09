@@ -45,6 +45,10 @@ $(document).ready(function(){
         time: 1000
     });
 
+	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+	particlesJS.load('slider', 'particles.json', function() {
+	console.log('callback - particles.js config loaded');
+  });
 
 });
 
